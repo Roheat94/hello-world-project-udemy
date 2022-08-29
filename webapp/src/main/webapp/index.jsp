@@ -1,75 +1,160 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Rohit's 2nd html</title>
-</head>
-<body>
-<p>
-    This is Rohit part 2 HTML
-</p>
-<!-- Applying video inside a web page-->
-<video controls width="300" height="200">
-    <source src="Uptrends.mp4" type="video/mp4">
-</video>
-<!-- Applying PDF inside the web page -->
-<p>
-    <iframe src="Cheers award.pdf" width="400" height="500"></iframe>
-</p>
-<!-- Applying Youtube video inside the webpage -->
-<p>
-    <iframe width="300" height="200" src="https://www.youtube.com/embed/xIXtKQ0tSM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
-<!-- Applying Google map-->
-<p>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d479087.79453228926!2d85.81912679999999!3d20.2640848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a76e1551cbcf%3A0x4788f4c143059df2!2sBanaja%20Apartments!5e0!3m2!1sen!2sin!4v1617880135290!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</p>
-<br>
-<br>
-<!-- HTML Entities, Emjois and Symbols-->
-&copy; &lt;div&gt; &#129428; &#128520;&#128519; Rohit &nbsp;&nbsp;&nbsp;Dutta
-<p>
-    <h1>Rohit Dutta</h1>
-</p>
-<p>
-    <!-- Image Map from generator site-->
-    <p>
-    <img src="Sample.jpg" usemap="#image_map">
-        <map name="image_map">
-            <area alt="Google" title="Google" href="https://www.google.com" coords="473,14,761,400" shape="rect">
-            <area alt="Beverage" title="Beverage" href="http://www.madhuloka.com/" coords="408,582,160" shape="circle">
-            <area alt="Petfed" title="Petfed" href="https://www.petfed.org/" coords="52,834,612,1150" shape="rect">
-        </map>
+    <head>
+        <title>
+            Rohit's HTML
+        </title>
+    </head>
+    <body>
+        <!-- 1st paragraph -->  
+        <p>
+            This is the 1st paragraph of the page
+            <h1>Rohit</h1>
         </p>
-</p>
-<br><br>
-<!-- Form Text area-->
-<p>
-    <form>
-        <textarea rows="10" cols="20" placeholder="Enter Description"></textarea>
-        <input type="image" src="http://sabreuse.com/wp-content/uploads/2013/06/red-submit-button-hi.png" width="100" height="50">
-    </form>
-</p>
-<!-- Select option from Drop down and Radio & Checkbox-->
-<form>
-    <select>
-        <option>Bangalore</option>
-        <option>Odisha</option>
-        <option>Kolkata</option>
-        <option>Mumbai</option>
-        <option>Delhi</option>
-    </select>
-    <input type="submit">
-    <br><br>
-    <input type="radio" value="Male" name="Gender"> Male 
-    <input type="radio" value="Female" name="Gender"> Female 
-    <input type="radio" value="Others" name="Gender"> Others
-    <br>
-    <input type="checkbox" value="Programmer" name="Designation"> Programmer 
-    <input type="checkbox" value="Manager" name="Designation"> Manager
-    <input type="checkbox" value="Operations" name="Designation"> Operations   
-</form>
-
-
-</body>
+        <!-- 2nd paragraph -->  
+        <p>
+            This guy is so cool
+            <br><br>  
+            <!-- Applying image inside a webpage--> 
+            <img src="pics/image.jpg" alt="logo" width="200" height="200">   
+            <!-- Moving text-->
+            <marquee direction="right"> This is 1 of the picture of Rohit</marquee>     
+        </p>
+        <br><br>
+        <p>
+            <!-- Ordered list-->
+            <ol type="1"><strong>Rohit's Qualities</strong>           
+                <hr>
+                <li><i>Smart</i></li>
+                <li><em>Hardworking</em></li>
+                <li>determined</li>
+            </ol>
+            <!-- Description list-->
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- Made of cocoa beans</dd>
+                <dt>Tea</dt>
+                <dd>- Made of tea leaves</dd>
+            </dl>
+        </p>
+             <p>
+                X <sub>2</sub>
+                <br>
+                Y <sup>4</sup>
+            </p>
+            <!-- Anchor tag-->
+            <p>
+                
+                <a href="http://www.google.com" target="blank" title="Takes to Google">Click here</a>
+                <br>
+                <!-- Abbreviation-->
+                <abbr title="by the way">btw</abbr>
+                <br>
+                <!-- Contact us tag with Anchor-->
+                <a href="mailto:rohit.rohit916@gmail.com?subject= Hello how are you" title="takes to Outlook">Contact us</a>
+            </p>
+            <!-- Table-->
+            <p>
+            <table border="2">
+                <caption><strong>Table example</strong></caption>
+                <tr>
+                    <th style="color: green;">Date</th>
+                        <td>Value 1</td>
+                        <td>value 2</td>
+                        <td>value 3</td>
+                    </tr> 
+                    <tr>
+                        <th style="color:green;">Month</th>
+                        <td>Value 4</td>
+                        <td>value 5</td>
+                        <td>value 6</td>
+                    </tr>
+                    <tr>
+                        <th style="color:green;">Time</th>
+                        <td>Value 7</td>
+                        <td>
+                            <table border="4">
+                                <tr>
+                                <td>col 1</td>
+                                <td>col 2</td>
+                                </tr>
+                                <tr>
+                                <td>col 3</td>
+                                <td>col 4</td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>value 9</td> 
+                    </tr>
+                    <tr> 
+                        <th style="color: green;">year</th>
+                        <td>Value 10</td>
+                        <td>value 11</td>
+                        <td>value 12</td>
+                    </tr>       
+            </table>
+            </p>
+        </p>
+        <br>
+        <!-- Div and Span-->
+        <p>
+        <div style="border: 2px solid blue;">This is a DIV section</div>
+        <br>
+        <span style="border: 2px solid yellowgreen;">This is a SPAN section</span>
+        </p>
+        <br>
+        <br>
+        <!-- Embeding another website into the webpage-->
+        <iframe src="https://www.premierleague.com/tables" height="500" width="800"></iframe>
+        <br><br>
+        <!-- Form tag-->
+        <p>
+        <form>
+            <div>
+                Name:
+                <input type="text" value="Rohit Dutta" readonly>
+            </div>
+            <br>
+            <div>
+                Age:
+                <input type="number" placeholder="Enter Age" min="20" max="30">
+            </div>
+            <br>
+            <div>
+                Date of Birth
+                <input type="date" placeholder="Enter DOB">
+            </div>
+            <br>
+            <div>
+                Email ID* 
+                <input type="email" maxlength="20" size="30" placeholder="Valid Email ID" required>
+            </div>
+            <br>
+            <div>
+                Colour
+                <input type="color">
+            </div>
+            <br>
+            <div>
+                Time
+                <input type="time">
+            </div>
+            <br>
+            <div>
+                Region Code  
+                <input type="number" value="1" step="2">
+            </div>
+            <br>
+            <input type="submit" value="Save & Continue">
+            <input type="reset">
+        </form>
+        </p>
+        <br>
+        <!-- Uploading file in a form-->
+        <p>
+            <form>
+                <input = type="file" multiple>
+            </form>
+        </p>
+    </body>
 </html>
